@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 int main(){
-    bool running = true;
+    bool running = true; 
     int x;
 
     while(running){
