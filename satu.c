@@ -6,10 +6,10 @@ int main(){
     int x;
 
     while(running){
-        printf("Masukkan angka (999 untuk stop): ");
+        printf("Masukkan angka (0 untuk stop): ");
         scanf("%d", &x);
 
-        if(x == 999){
+        if(x == 0){
             running = false; // menghentikan loop
         } else {
             printf("Anda memasukkan %d\n", x);
